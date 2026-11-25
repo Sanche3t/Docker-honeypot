@@ -1,4 +1,4 @@
-# 🛡️ HONEYNET SENTINEL
+# 🛡️ DOCKER-HONEYNET
 ### Containerized Honeypot Intrusion Detection, Attack Classification & SOC Analytics
 
 HONEYNET SENTINEL is an end-to-end defensive cybersecurity system that integrates containerized honeypots (Cowrie SSH/Telnet and a custom Flask Web Honeypot) with a **3-Layer Detection & Classification Engine** and an interactive **Streamlit SOC Dashboard**.
