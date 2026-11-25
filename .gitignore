@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary dump and packet captures
+cowrie_dump/
+data/pcaps/*.pcap
+*.pcap
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment files and credentials
+*.pem
+*.key
+.env

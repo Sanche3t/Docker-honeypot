@@ -1,0 +1,20 @@
+services:
+  cowrie:
+    image: cowrie/cowrie:latest
+    container_name: honeypot-cowrie
+    restart: always
+    ports:
+      - "2222:2222"
+      - "2223:2223"
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    container_name: honeypot-web
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data/web:/export/web
+      - ./honeypot:/app
